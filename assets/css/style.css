@@ -1,0 +1,12 @@
+
+
+.Img{
+    opacity: 0.6;
+}
+
+.Img:hover{
+    transition: .3s;
+    opacity: 1;
+    
+}
+
