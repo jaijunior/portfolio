@@ -18,22 +18,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <span class="navbar-brand mb-0 h1">DINÂMICO CRIATIVO</span>
 
             <ul class="nav text-white">
                 <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Dinâmico Criativo</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-white" href="#one">Link</a>
+                    <a class="nav-link text-white" href="#one">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Link</a>
+                    <a class="nav-link text-white" href="#two">Nossos Trabalhos</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link disabled text-white">Disabled</a>
+                    <a class="nav-link text-white" href="#three">Contato</a>
                 </li>
             </ul>
         </div>
@@ -92,7 +92,7 @@
             O QUE FAZEMOS?
             <hr>
         </h1>
-        
+
 
         <div class="row row-cols-1 row-cols-md-3 g-4 w-75">
             <div class="col">
@@ -125,8 +125,8 @@
                     </div>
                     <div class="card-footer">
                         <small class="text-muted d-flex justify-content-evenly"><button type="button"
-                                class="btn btn-outline-primary">Primary</button> <button type="button"
-                                class="btn btn-warning">Warning</button>
+                                class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Saiba
+                                mais!</button>
                         </small>
                     </div>
                 </div>
@@ -143,7 +143,10 @@
                         </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted d-flex justify-content-evenly"><button type="button"
+                                class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Saiba
+                                mais!</button>
+                        </small>
                     </div>
                 </div>
             </div>
@@ -159,7 +162,7 @@
                     </div>
                     <div class="modal-body">
                         <!-- LISTA -->
-                        <ul class="list-group list-group-flush">
+                        <ul class="list-group list-group-flush align-items-center">
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Logotipos</div>
@@ -179,22 +182,24 @@
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Assinaturas de E-mail</div>
-                                    Content for list item
+                                    Assinaturas de E-mail personalizadas e alinhadas ao seu negócio
                                 </div>
                                 <span class="badge bg-primary rounded-pill"></span>
                             </li>
                         </ul>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <a href="https://www.google.com" target="_blank" class="btn btn-success active" role="button"
+                            aria-pressed="true"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Modal 2 -->
-        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -203,33 +208,37 @@
                     </div>
                     <div class="modal-body">
                         <!-- LISTA -->
-                        <ul class="list-group list-group-flush">
+                        <ul class="list-group list-group-flush align-items-center">
                             <li class="list-group-item d-flex justify-content-between align-items-start">
-                                <div class="ms-2 me-auto">
+                                <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Logotipos</div>
-                                    Content for list item
+                                    Ideias criativas ou a sua propria ideia! O cliente não pode mais te esquecer ao ver
+                                    a sua marca
                                 </div>
                                 <span class="badge bg-primary rounded-pill"></span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
-                                <div class="ms-2 me-auto">
+                                <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Banners Para Redes Sociais</div>
-                                    Content for list item
+                                    <p class="">Os melhores atritivos para novos clientes, banners para Instagram,
+                                        Facebook, WhatsApp.</p>
                                 </div>
                                 <span class="badge bg-primary rounded-pill"></span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
-                                <div class="ms-2 me-auto">
+                                <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Assinaturas de E-mail</div>
-                                    Content for list item
+                                    Assinaturas de E-mail personalizadas e alinhadas ao seu negócio
                                 </div>
                                 <span class="badge bg-primary rounded-pill"></span>
                             </li>
                         </ul>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <a href="https://www.google.com" target="_blank" class="btn btn-success active" role="button"
+                            aria-pressed="true"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+
                     </div>
                 </div>
             </div>
@@ -245,9 +254,9 @@
                     </div>
                     <div class="modal-body">
                         <!-- LISTA -->
-                        <ul class="list-group list-group-flush">
+                        <ul class="list-group list-group-flush align-items-center">
                             <li class="list-group-item d-flex justify-content-between align-items-start">
-                                <div class="ms-2 me-auto">
+                                <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Logotipos</div>
                                     Ideias criativas ou a sua propria ideia! O cliente não pode mais te esquecer ao ver
                                     a sua marca
@@ -255,24 +264,27 @@
                                 <span class="badge bg-primary rounded-pill"></span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
-                                <div class="ms-2 me-auto">
+                                <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Banners Para Redes Sociais</div>
-                                    Content for list item
+                                    <p class="">Os melhores atritivos para novos clientes, banners para Instagram,
+                                        Facebook, WhatsApp.</p>
                                 </div>
                                 <span class="badge bg-primary rounded-pill"></span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
-                                <div class="ms-2 me-auto">
+                                <div class="ms-2 me-auto py-2">
                                     <div class="fw-bold">Assinaturas de E-mail</div>
-                                    Content for list item
+                                    Assinaturas de E-mail personalizadas e alinhadas ao seu negócio
                                 </div>
                                 <span class="badge bg-primary rounded-pill"></span>
                             </li>
                         </ul>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <a href="https://www.google.com" target="_blank" class="btn btn-success active" role="button"
+                            aria-pressed="true"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+
                     </div>
                 </div>
             </div>
@@ -281,10 +293,12 @@
 
         <!-- PROJETOS -->
 
-        <div class="bg-dark py-3 my-5">
+        <div class="bg-dark py-3 my-5" id="two">
 
             <div class="container-fluid d-flex flex-column w-75 align-items-center">
-                <h1 class="text-white py-3 my-2">ALGUNS DE NOSSOS TRABALHOS <hr></h1>
+                <h1 class="text-white py-3 my-2">ALGUNS DE NOSSOS TRABALHOS
+                    <hr>
+                </h1>
 
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
@@ -331,7 +345,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="three">
             <h1>CONTATO</h1>
             <hr>
             <br>
@@ -341,7 +355,7 @@
             </div>
             <br>
             <div class="py-0">
-               <hr>
+                <hr>
             </div>
 
             <form action="" method="post" class="d-flex flex-column">
