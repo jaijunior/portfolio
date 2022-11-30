@@ -1,5 +1,4 @@
 
-
 .Img{
     opacity: 0.6;
 }
@@ -10,3 +9,38 @@
     
 }
 
+.banner1{
+    min-height: 300px;
+    background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.30)100%), url(../img/4.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 3px 3px 4px black;
+}
+
+.banner2{
+    min-height: 300px;
+    background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.30)100%), url(../img/2.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 3px 3px 4px black;
+}
+
+.banner3{
+    min-height: 300px;
+    background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.30)100%), url(../img/3.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 3px 3px 4px black;
+}
+
+
+@media screen and (max-width: 600px)
+{
+  .banner1, .banner2, .banner3
+   {
+    min-height: 600px;
+   }
+}

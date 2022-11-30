@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid flex-nowrap">
             <span class="navbar-brand mb-0 h1">DINÂMICO CRIATIVO</span>
 
             <ul class="nav text-white">
@@ -40,28 +40,44 @@
     </nav>
 
 
-    <header class="bg-dark py-5 d-flex justify-content-center" style="min-height: 250px ;">
+    <header>
+
+        <!-- Carrousel -->
+
+
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="d-flex flex-column align-items-center justify-content-center w-75 text-white text-center"
-                        style="margin: 0 auto; min-width: 75%;">
-                        <h1>MAIS CLIENTES</h1>
-                        <p>Solução que facilita que os clinetes te encontrem e vejam o seu trabalho, clientes gostam de ver seu trabalho antes mesmo de contatar</p>
+                    <div class="banner1 banner bg-dark py-5 d-flex flex-column align-items-center">
+                        <div class="text-white text-center w-50 mb-2">
+                            <h1>IMAGEM DO SEU NEGOCIO</h1>
+                            <p class="lead fw-bold">Destaque-se frente aos concorrentes, seja diferente deles e impulsione o seu negocio</p>
+                        </div>
+                        <div class="">
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="d-flex flex-column align-items-center justify-content-center w-75 text-white text-center"
-                        style="margin: 0 auto; min-width: 75%;">
-                        <h1>O CLIENTE NO SEU TELEFONE</h1>
-                        <p>Fazer o cliente contatar diretamente por WhatsApp, Instagram, Telegram ou E-mail. Isso coloca o cliente frente a frente com seu negocio para melhores atendimentos</p>
+                    <div class="banner2 bg-dark py-5 d-flex flex-column align-items-center">
+                        <div class="text-white text-center w-50 mb-2">
+                            <h1>MAIS CLIENTES</h1>
+                            <p class="lead fw-bold">Solução que facilita que os clinetes te encontrem e vejam o seu trabalho, clientes gostam de ver seu trabalho antes mesmo de contatar</p>
+                        </div>
+                        <div class="">
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="d-flex flex-column align-items-center justify-content-center w-75 text-white text-center"
-                        style="margin: 0 auto; min-width: 75%;">
-                        <h1>IMAGEM DO SEU NEGOCIO</h1>
-                        <p>Destaque-se frente aos concorrentes, seja diferente deles e impulsione o seu negocio</p>
+                    <div class="banner3 bg-dark py-5 d-flex flex-column align-items-center">
+                        <div class="text-white text-center w-50 mb-2">
+                            <h1>O CLIENTE NO SEU TELEFONE</h1>
+                            <p class="lead fw-bold">Fazer o cliente contatar diretamente por WhatsApp, Instagram, Telegram ou E-mail. Isso coloca o cliente frente a frente com seu negocio para melhores atendimentos</p>
+                        </div>
+                        <div class="">
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,15 +94,15 @@
         </div>
     </header>
 
-
-    <main
+    <main id="one"
         class="container-fluid bg-light px-0 py-5 d-flex flex-column text-center justify-content-center align-items-center">
 
-        <h1 class="py-3" id="one">
+        <h1 class="py-3">
             O QUE FAZEMOS?
             <hr>
         </h1>
 
+        <!-- Cards -->
 
         <div class="row row-cols-1 row-cols-md-3 g-4 w-75">
             <div class="col">
@@ -287,7 +303,7 @@
 
         <!-- PROJETOS -->
 
-        <div class="bg-dark py-3 my-5" id="two">
+        <div class="bg-dark py-5 my-5" id="two">
 
             <div class="container-fluid d-flex flex-column w-75 align-items-center">
                 <h1 class="text-white py-3 my-2">ALGUNS DE NOSSOS TRABALHOS
@@ -339,13 +355,14 @@
             </div>
         </div>
 
-        <div id="three">
+        <div id="three" class="py-5">
             <h1>CONTATO</h1>
             <hr>
             <br>
             <div class="py-0">
-                <button type="button" class="btn btn-success"> <i class="bi bi-whatsapp"></i> WhatsApp</button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-envelope"></i> Gmail</button>
+                <button type="button" class="btn btn-success btn-lg mx-2"> <i class="bi bi-whatsapp"></i>
+                    WhatsApp</button>
+                <button type="button" class="btn btn-danger btn-lg mx-2"><i class="bi bi-envelope"></i> Gmail</button>
             </div>
             <br>
             <div class="py-0">
