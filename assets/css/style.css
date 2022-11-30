@@ -10,7 +10,7 @@
 }
 
 .banner1{
-    min-height: 300px;
+    min-height: 350px;
     background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.30)100%), url(../img/4.png) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,7 @@
 }
 
 .banner2{
-    min-height: 300px;
+    min-height: 350px;
     background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.30)100%), url(../img/2.png) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,7 +28,7 @@
 }
 
 .banner3{
-    min-height: 300px;
+    min-height: 350px;
     background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.30)100%), url(../img/3.png) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,6 +41,34 @@
 {
   .banner1, .banner2, .banner3
    {
-    min-height: 600px;
+    min-height: 500px;
+    background: none;
+   }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px)
+{
+  .banner1, .banner2, .banner3
+   {
+    min-height: 430px;
+    
+   }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1300px)
+{
+  .banner1, .banner2, .banner3
+   {
+    min-height: 375px;
+    
+   }
+}
+
+@media screen and (min-width: 1301){
+
+  .banner1, .banner2, .banner3
+   {
+    min-height: 370px;
+    
    }
 }
