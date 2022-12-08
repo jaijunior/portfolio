@@ -41,7 +41,23 @@
     text-shadow: 3px 3px 4px black;
 }
 
+.wpp_button{
+    background: url('https://cdn-icons-png.flaticon.com/512/124/124034.png?w=826&t=st=1670458599~exp=1670459199~hmac=26969528b77a5db553a65d150a6ccba4227468d1b7e0e41c86e9f2a35a8e4b63');
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    color: white;
+}
 
+.wpp_button_image{
+    width: 50px;
+    height: 50px;
+}
 @media screen and (max-width: 600px)
 {
   .banner1, .banner2, .banner3
