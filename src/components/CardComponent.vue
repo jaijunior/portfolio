@@ -10,7 +10,7 @@
       </p>
     </div>
     <div class="imageDiv">
-      <img src="{{ imageUrl }}" alt="Imagem de Jairo Nonato" srcset="" />
+      <img src="{{ imageUrl }}" alt="{{ imageAlt }}" title="{{ imageTitle }}" longdesc="{{ imageLongDesc }}"  srcset="" />
     </div>
   </div>
 </template>
@@ -19,11 +19,14 @@
 export default {
     name: 'CardComponent',
     props: {
-        direction : String,
-        title     : String,
-        lead      : String,
-        paragraph : String,
-        imageUrl  : String
+        direction     : String,
+        title         : String,
+        lead          : String,
+        paragraph     : String,
+        imageUrl      : String,
+        imageAlt      : String,
+        imageTitle    : String,  
+        imageLongDesc : String
     }
 };
 </script>
