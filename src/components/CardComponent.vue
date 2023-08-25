@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" style="flex-direction: {{ direction }}">
     <div class="description">
       <h1>{{ title }}</h1>
       <span>{{ lead }}</span>
@@ -10,12 +10,12 @@
       </p>
     </div>
     <div class="imageDiv">
-      <img src="{{ imageUrl }}" alt="{{ imageAlt }}" title="{{ imageTitle }}" longdesc="{{ imageLongDesc }}"  srcset="" />
+      <img :src="imageUrl" :alt="imageAlt" :title="imageTitle" :longdesc="imageLongDesc"/>
     </div>
   </div>
 </template>
 
-<script>
+<script defer>
 export default {
     name: 'CardComponent',
     props: {
@@ -39,6 +39,10 @@ div.main{
     flex-wrap: no-wrap;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+  font-family: Ubuntu;
 }
 
 div.description{

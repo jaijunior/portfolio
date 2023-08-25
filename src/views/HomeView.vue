@@ -2,7 +2,7 @@
   <div class="home">
     <main>
       <section>
-        <card-component />
+        <card-component direction="column" title="Teste" imageAlt="Teste" />
       </section>
       <section>
         

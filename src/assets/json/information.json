@@ -1,0 +1,13 @@
+{
+    "about" : {
+        "first" : {
+            "direction"     : "row",
+            "title"         : "Título",
+            "description"   : "Olá! Sou um profissional de tecnologia apaixonado, formado em Técnico em Informática e atualmente cursando Bacharelado em Ciência da Computação. Tenho experiência em manutenção de computadores, automação de processos e infraestrutura de rede. Além disso, possuo conhecimentos em VueJS, CodeIgniter, PHP e administração de redes Linux. Vamos colaborar?",
+            "lead"          : "lead",
+            "imageUrl"      : "imgUrl",
+            "imageAlt"      : "imgAlt",
+            "imageTitle"    : "imgTitle"
+        }
+    }
+}
